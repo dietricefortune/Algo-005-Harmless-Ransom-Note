@@ -1,12 +1,14 @@
 package hbcu.stay.ready.algor;
 
+import sun.jvm.hotspot.utilities.Assert;
+
 import java.util.HashMap;
 
 public class Solution {
 
     public Boolean harmlessRansomNote(String message, String magazineText) {
 
-            //String sentence = "";
+            //String  = "";
             String[] note1 = message.split(" ");
 
             //initialize the hash map and call it ransom1
@@ -25,7 +27,7 @@ public class Solution {
                 }
 
             }
-            return true || false;
+            return true;
         }
 
 
